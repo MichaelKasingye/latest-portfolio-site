@@ -48,62 +48,60 @@ function NavBar() {
   <div className="logo me-auto">
     <Link href= "/">
     <a>
-    <img src='assets/img/logo/logosc.png' width={50} height={60}  alt='The stella center logo'/>
+      <h1>Michael</h1>
+    {/* <img src='assets/img/logo/logosc.png' width={50} height={60}  alt='The stella center logo'/> */}
     </a>
     </Link>
   </div>
 <nav id="navbar"  className={click ? "nav-options active " : "nav-options "}>
       
   <ul className=" m-0 p-1  navigationBar" style={{listStyle: "none", color:"white" }}>
+
     <li className="option" onClick={closeMobileMenu}>
     <Link href="/">
       <a>Home</a>
     </Link>
     </li>
 
-   
-
-    <li className="option" onClick={closeMobileMenu}>
+       <li className="option" onClick={closeMobileMenu}>
     <Link href="/#about">
       <a> About</a>
     </Link>
     </li>
 
-    <li className="thedropdown option">
-    <Link href="/#service">
-      <a className="thedropdown  ">
-        <span className="thedropdown ">Impact</span> <i className="bi bi-chevron-down"></i>
-      </a>
-      </Link>
-            <ul  className="  thedropdown-content animate__animated animate__fadeInUp ">
-              <li onClick={closeMobileMenu}>
-                <Link href="/team">
-                <a>Our Team</a>
-             </Link>
-             </li>
-            </ul>
-            </li>
+    <li className="option" onClick={closeMobileMenu}>
+    <Link href="/#resume">
+      <a> Resume</a>
+    </Link>
+    </li>
 
     <li className="thedropdown option">
     <Link href="/#blogs">
       <a className="thedropdown  ">
-        <span className="thedropdown ">Blogs</span> <i className="bi bi-chevron-down"></i>
+        <span className="thedropdown ">More</span> 
+        {/* <i className="bi bi-chevron-down"></i> */}
       </a>
       </Link>
             <ul  className="  thedropdown-content animate__animated animate__fadeInUp ">
               <li onClick={closeMobileMenu}>
-                <Link href="/blogs">
-                <a>View Our blogs</a>
+                <Link href="#">
+                <a>Certificates</a>
+             </Link>
+             </li>
+             <li onClick={closeMobileMenu}>
+                <Link href="#">
+                <a>Blogs</a>
              </Link>
              </li>
             </ul>
             </li>
 
     <li className="option" onClick={closeMobileMenu}>
-    <Link href="/contact">
+    <Link href="/#contact">
       <a>Contact</a>
     </Link>
     </li>
+    
 
     {/* <li className="option " onClick={closeMobileMenu}>
     <Link href="/donate">
@@ -117,9 +115,10 @@ function NavBar() {
 
 <div className="mobile-menu" onClick={handleClick}>
   {click ? (
-    <GrClose className="menu-icon "/>
+    // <GrClose className="menu-icon text-light"/>
+    <h1>x</h1>
   ) : (
-    <FaBars className="menu-icon"/>
+    <FaBars className="menu-icon " style={{ color:"white" }}/>
 
   )}
 </div>

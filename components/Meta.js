@@ -77,8 +77,6 @@ const Meta = ({ title, keywords, description, siteLink, image }) => {
   {/* <!-- Vendor JS Files --> */}
   <script defer src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  {/* <!-- Template Main JS File --> */}
-  <script src="assets/js/main.js"></script>
 
       <title>{title}</title>
     </Head>
