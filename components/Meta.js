@@ -10,8 +10,8 @@ const Meta = ({ title, keywords, description, siteLink, image }) => {
       <link rel="icon" href="/favicon.ico" />
       {/* <!-- Favicons --> */}
       <link href="assets/img/favicon.png" rel="icon"/>
-  <link href="assets/img/android-chrome.png" rel="icon"/>
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"/>
+  {/* <link href="assets/img/android-chrome.png" rel="icon"/>
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"/> */}
 
 
       <meta property="og:title" content={title} />
@@ -84,11 +84,11 @@ const Meta = ({ title, keywords, description, siteLink, image }) => {
 };
 
 Meta.defaultProps = {
-  title: "stellacenter",
-  keywords: "Ngo",
-  description: "Ngo that supports children",
-  image:"https://stellacenter.vercel.app/assets/img/logo/logosc.jpeg",
-  siteLink:"stellacenter.vercel.app"
+  title: "Michael Kasingye",
+  keywords: "Michael Kasingye",
+  description: "Full stack Software Developer, mentor with more than 2 years experience",
+  image:"",
+  siteLink:""
 };
 
 export default Meta;

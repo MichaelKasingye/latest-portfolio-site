@@ -1,8 +1,8 @@
 import React, { useEffect }  from 'react'
 import Aos from 'aos'
 import "aos/dist/aos.css"
-// import serviceCss from "./Service.module.css";
-// import { Swiper, SwiperSlide } from "swiper/react";
+import {resumeIcons} from "../../utilities/sections/resume"
+
 import SwiperCore, { Autoplay, Pagination } from "swiper";
 SwiperCore.use([Autoplay, Pagination]);
 
@@ -33,33 +33,16 @@ function Services() {
       </div>
 
         <div className="row my-4" data-aos="fade-right">
-        
-          <div className="col-lg-3 col-md-4 mt-4 mt-lg-0">
-            <div className="icon-box">
-              <i className="bi bi-book" style={{ color: "#5578ff" }} />
-              <h3>Dolor Sitema</h3>
+        {
+            resumeIcons.map((info, index) =>(
+              <div key ={index}className="col-lg-3 col-md-4 mt-4 mt-lg-0">
+              <div className="icon-box">
+              {info.icon}
+                <h3>{info.name}</h3>
+              </div>
             </div>
-          </div>
-          <div className="col-lg-3 col-md-4 mt-4 mt-lg-0">
-            <div className="icon-box">
-              <i className="bi bi-book" style={{ color: "#e80368" }} />
-              <h3>Sed perspiciatis</h3>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-4 mt-4 mt-lg-0">
-            <div className="icon-box">
-              <i className="bi bi-book" style={{ color: "#e361ff" }} />
-              <h3>Magni Dolores</h3>
-            </div>
-          </div>
-          
-          <div className="col-lg-3 col-md-4 mt-4 mt-lg-0">
-            <div className="icon-box">
-              <i className="bi bi-book" style={{ color: "#11dbcf" }} />
-              <h3>Midela Teren</h3>
-            </div>
-          </div>
-         
+            ))
+          }
         </div>
       </div>
 

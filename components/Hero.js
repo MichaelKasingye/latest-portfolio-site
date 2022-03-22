@@ -1,21 +1,8 @@
 import React from 'react'
 import headerStyles from "../styles/Header.module.css";
 // import Image from 'next/image';
+import {socialMediaIcons} from "../utilities/sections/heroAndAbout"
 function Hero() {
-  const heroData = [
-    {
-      title:"Protection",
-      details:"Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis"
-    },
-    {
-      title:"Education",
-      details:"Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis"
-    },
-    {
-      title:"Knowledge",
-      details:"Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis"
-    },
-  ]
     return (
       <header id="hero">
       <div className="container">
@@ -31,18 +18,13 @@ function Hero() {
         </h2>
         {/* .navbar */}
         <div className="social-links">
-          <a href="#" className="twitter">
-            <i className="bi bi-twitter" />
+          {
+            socialMediaIcons.map((info, index) =>(
+              <a key = {index} href={info.link} className={info.css}>
+            <i className={info.icon} />
           </a>
-          <a href="#" className="facebook">
-            <i className="bi bi-facebook" />
-          </a>
-          <a href="#" className="instagram">
-            <i className="bi bi-instagram" />
-          </a>
-          <a href="#" className="linkedin">
-            <i className="bi bi-linkedin" />
-          </a>
+            ))
+          }
         </div>
       </div>
     </header>
