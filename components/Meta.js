@@ -7,11 +7,7 @@ const Meta = ({ title, keywords, description, siteLink, image }) => {
       <meta name="keywords" content={keywords} />
       <meta name="description" content={description} />
       <meta charSet="utf-8" />
-      <link rel="icon" href="/favicon.ico" />
-      {/* <!-- Favicons --> */}
-      <link href="assets/img/favicon.png" rel="icon"/>
-  {/* <link href="assets/img/android-chrome.png" rel="icon"/>
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"/> */}
+     
 
 
       <meta property="og:title" content={title} />
@@ -47,8 +43,8 @@ const Meta = ({ title, keywords, description, siteLink, image }) => {
 
 
 {/* <!-- Favicons --> */}
-  <link href="assets/img/favicon.png" rel="icon"/>
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"/>
+  {/* <link href="assets/img/favicon.png" rel="icon"/>
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"/> */}
 
   {/* <!-- Google Fonts --> */}
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"/>

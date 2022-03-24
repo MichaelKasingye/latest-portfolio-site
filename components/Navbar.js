@@ -89,15 +89,13 @@ function NavBar() {
       </Link>
             <ul  className="  thedropdown-content animate__animated animate__fadeInUp ">
               <li onClick={closeMobileMenu}>
-                <Link href="#">
-                <a>Certificates</a>
-             </Link>
+                <a  href="https://drive.google.com/drive/folders/1jPUA3rteZ1FD6_gUF1TpJmSU8qyiUZ6r" target="_blank" rel="noopener noreferrer">Certificates</a>
              </li>
-             <li onClick={closeMobileMenu}>
+             {/* <li onClick={closeMobileMenu}>
                 <Link href="#">
                 <a>Blogs</a>
              </Link>
-             </li>
+             </li> */}
             </ul>
             </li>
 

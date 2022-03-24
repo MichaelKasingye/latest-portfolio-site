@@ -47,11 +47,8 @@ function Services() {
       </div>
 
       <div >
-      
           <h3 className="resume-title">Professional Experience</h3>
         <div className="grid" data-aos="fade-right">
-
-
         {
             resumeExperience.map((info, index) =>(
           <div className="resume-item " data-aos="fade-up" key = {index} >
@@ -62,14 +59,23 @@ function Services() {
             { info.jobDescriptions.map((list, index) =>(
               <li  key = {index}>{list}</li>
             ))}
-      
           </ul>
         </div>
             ))
           }
-          
-         
         </div>
+
+        <div className="interests container my-5" >
+          <a  href="https://drive.google.com/file/d/1nIMpKXTtPoHy9XuuW7i6fLmxDiCsllkU/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <div className="col-lg-3 col-md-4 mt-5 mt-lg-0">
+              <div className="icon-box">
+              <i className="bi bi-card-heading" style={{ color: "#11dbcf" }} />
+                <h3 style={{ color: "#e67e22" }}>Get Resume PDF</h3>
+            </div>
+      </div>
+      </a>
+      </div>
+
       </div>
 
     </div>
