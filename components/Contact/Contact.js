@@ -18,7 +18,7 @@ function Blogs() {
           <p>Contact Me</p>
         </div>
   
-        <form action="forms/contact.php" method="post" role="form" className="php-email-form mt-4" data-aos="fade-up">
+        <form  role="form" className="php-email-form mt-4" data-aos="fade-up"name="contact"  method="POST"  data-netlify="true">
           <div className="row">
             <div className="col-md-6 form-group" >
               <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" required/>
@@ -28,10 +28,10 @@ function Blogs() {
             </div>
           </div>
           <div className="form-group mt-3" data-aos="fade-right">
-            <input type="text" className="form-control" name="subject" id="subject" placeholder="Subject" required/>
+            <input type="text" className="form-control" name="subject" id="subject contact_form_name" placeholder="Subject"  required/>
           </div>
           <div className="form-group mt-3" data-aos="fade-left">
-            <textarea className="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+            <textarea className="form-control" name="message" rows="5" placeholder="Message" id="contact-form-message" type="text"  required></textarea>
           </div>
           <div className="my-3">
             <div className="loading">Loading</div>

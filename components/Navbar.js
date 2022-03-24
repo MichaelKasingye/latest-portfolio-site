@@ -74,6 +74,11 @@ function NavBar() {
       <a> Resume</a>
     </Link>
     </li>
+    <li className="option" onClick={closeMobileMenu}>
+    <Link href="/#portfolio">
+      <a> Portfolio</a>
+    </Link>
+    </li>
 
     <li className="thedropdown option">
     <Link href="/#blogs">

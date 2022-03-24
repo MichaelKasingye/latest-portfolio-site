@@ -669,12 +669,31 @@ color: white;
   background: #E67E22;
   border: 2px solid #E67E22;
 }
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: stretch;
+  align-items: stretch;
+}
 
 @media (max-width: 992px) {
   .row .image{
     width: 300px;
   }
 }
+@media (max-width: 769px) {
+  .grid{
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+}
+@media (max-width: 539px) {
+   .grid{
+  grid-template-columns: repeat(1, 1fr);
+    
+  }
+}
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -739,13 +758,13 @@ color: white;
   left: 0;
   right: 0;
   bottom: 0;
-  text-align: center;
+  text-align: left;
   z-index: 3;
   transition: all ease-in-out 0.3s;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
 .portfolio .portfolio-wrap .portfolio-info::before {
   display: block;
@@ -753,8 +772,8 @@ color: white;
   width: 48px;
   height: 48px;
   position: absolute;
-  top: 35px;
-  left: 35px;
+  top: 5px;
+  left: 15px;
   border-top: 3px solid #fff;
   border-left: 3px solid #fff;
   transition: all 0.5s ease 0s;
@@ -766,8 +785,8 @@ color: white;
   width: 48px;
   height: 48px;
   position: absolute;
-  bottom: 35px;
-  right: 35px;
+  bottom: 5px;
+  right: 15px;
   border-bottom: 3px solid #fff;
   border-right: 3px solid #fff;
   transition: all 0.5s ease 0s;
@@ -777,6 +796,8 @@ color: white;
   font-size: 20px;
   color: #fbfbfc;
   font-weight: 600;
+  padding: 2px;
+
 }
 .portfolio .portfolio-wrap .portfolio-info p {
   background: rgba(0, 0, 0, 0.6);
@@ -785,7 +806,7 @@ color: white;
   /* font-size: 14px; */
   /* text-transform: uppercase; */
   padding: 10px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   margin: 0;
 }
 .portfolio .portfolio-wrap .portfolio-links {

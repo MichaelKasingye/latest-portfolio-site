@@ -19,9 +19,9 @@ export default function Home() {
   return (
     <div >
       <Header 
-      title="thestella center"
-      metaName="The Stella Center"
-      metaContent="Stella Center Page, details about child aid"/>
+      title="Michael Kasingye"
+      metaName="Michael Kasingye"
+      metaContent="Michael Kasingye Page, details about Michael Kasingye as a software developer"/>
      
 
       <Hero/>
