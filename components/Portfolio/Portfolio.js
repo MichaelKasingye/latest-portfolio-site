@@ -30,8 +30,6 @@ function Motto() {
               <h4>{info.title}</h4>
               <p>{info.description}</p>
               <div className="portfolio-links">
-                <a href={info.link} className="portfolio-lightbox" ><i className="bx bx-plus"></i></a>
-                <a href="portfolio-details.html"  data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details"><i className="bx bx-link"></i></a>
               </div>
             </div>
           </div>
