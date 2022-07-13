@@ -497,7 +497,31 @@ section {
   font-family: "Poppins", sans-serif;
   color: #e4e9ee;
 }
-
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients {
+  background: #040404;
+  padding: 1px 0;
+  text-align: center;
+}
+.clients img {
+  width: 60%;
+  /* filter: grayscale(100); */
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 1px 0;
+  /* border: 2px solid black; */
+}
+.clients img:hover {
+  filter: none;
+  transform: scale(1.2);
+}
+@media (max-width: 768px) {
+  .clients img {
+    width: 40%;
+  }
+}
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -1049,6 +1073,13 @@ color: white;
 /*--------------------------------------------------------------
 # Blog
 --------------------------------------------------------------*/
+.entry{
+  border-left: 2px solid rgba(255, 0, 0, 0.479);
+  /* border-top: 2px solid rgba(255, 0, 0, 0.479); */
+/* margin: 0.1px; */
+  /* box-shadow: rgb(245, 3, 3) 1.95px 1.95px 2.6px; */
+}
+
 .blog {
   padding: 40px 0 20px 0;
 }
@@ -1058,7 +1089,7 @@ color: white;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 .blog .entry .entry-img {
-  max-height: 440px;
+  max-height: 300px;
   margin: -30px -30px 20px -30px;
   overflow: hidden;
 }
@@ -1068,8 +1099,8 @@ color: white;
   padding: 0;
   margin: 0 0 20px 0;
 }
-.blog .entry .entry-title a {
-  color: #556270;
+.blog .entry .entry-title span {
+  color: #9ca4ac;
   transition: 0.3s;
 }
 .blog .entry .entry-title a:hover {

@@ -5,7 +5,7 @@ import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Portfolio from '../components/Portfolio/Portfolio'
 import Resume from '../components/Resume/Resume'
-import Values from '../components/Values/Values'
+import Clients from '../components/clients/Clients'
 import styles from '../styles/Home.module.css'
 import Aos from 'aos'
 import "aos/dist/aos.css"
@@ -25,9 +25,9 @@ export default function Home() {
      
 
       <Hero/>
-      {/* <Values /> */}
       <AboutUs />
       <Resume/>
+      <Clients />
       <Portfolio/>
       <Contact/>
     

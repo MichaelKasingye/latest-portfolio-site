@@ -10,16 +10,16 @@ function Footer() {
       fuga maxime saepe commodi placeat.
     </p> */}
     <div className="social-links">
-      <a href="#" className="twitter">
+      <a href="https://twitter.com/michaelkasingye" className="twitter" target="_blank" rel="noopener noreferrer">
         <i className="bi bi-twitter" />
       </a>
-      <a href="#" className="Medium">
+      <a href="https://michaelkasingye.medium.com/" className="Medium" target="_blank" rel="noopener noreferrer">
         <i className="bi bi-medium" />
       </a>
-      <a href="#" className="You tube">
+      <a href="https://www.youtube.com/channel/UCMsbWRujsYQAremu5Zdu-BA" className="You tube" target="_blank" rel="noopener noreferrer">
         <i className="bi bi-youtube" />
       </a>
-      <a href="#" className="linkedin">
+      <a href="https://www.linkedin.com/in/michaelkasingye/" className="linkedin" target="_blank" rel="noopener noreferrer">
         <i className="bi bi-linkedin" />
       </a>
     </div>

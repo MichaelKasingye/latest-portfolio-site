@@ -43,8 +43,8 @@ const Meta = ({ title, keywords, description, siteLink, image }) => {
 
 
 {/* <!-- Favicons --> */}
-  {/* <link href="assets/img/favicon.png" rel="icon"/>
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"/> */}
+  <link href="https://avatars.githubusercontent.com/u/42036497?v=4" rel="icon"/>
+  <link href="https://avatars.githubusercontent.com/u/42036497?v=4" rel="apple-touch-icon"/>
 
   {/* <!-- Google Fonts --> */}
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"/>
@@ -82,8 +82,8 @@ const Meta = ({ title, keywords, description, siteLink, image }) => {
 Meta.defaultProps = {
   title: "Michael Kasingye",
   keywords: "Michael Kasingye",
-  description: "Full stack Software Developer, mentor with more than 2 years experience",
-  image:"",
+  description: "Software Developer | Mentor",
+  image:"https://avatars.githubusercontent.com/u/42036497?v=4",
   siteLink:""
 };
 

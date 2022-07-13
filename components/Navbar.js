@@ -91,11 +91,11 @@ function NavBar() {
               <li onClick={closeMobileMenu}>
                 <a  href="https://drive.google.com/drive/folders/1jPUA3rteZ1FD6_gUF1TpJmSU8qyiUZ6r" target="_blank" rel="noopener noreferrer">Certificates</a>
              </li>
-             {/* <li onClick={closeMobileMenu}>
-                <Link href="#">
+             <li onClick={closeMobileMenu}>
+                <Link href="/blogs">
                 <a>Blogs</a>
              </Link>
-             </li> */}
+             </li>
             </ul>
             </li>
 

@@ -5,12 +5,12 @@ import Header from '../components/Header'
 
 function Blogs() {
     return (
-        <div>
-            <Header 
+        <div style={{backgroundColor:"#040404"}}>
+            {/* <Header 
       title="The stella center -Blogs"
       metaName="The Stella Center -Blogs"
       metaContent="Stella Center Page, details about child aid -Team"
-      />
+      /> */}
       <BreadCrumbs page="Blogs"/>
       
             <BlogContainer/>

@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 function BreadCrumbs({page}) {
     return (
-      <section id="breadcrumbs" className="breadcrumbs mt-3">
+      <section id="breadcrumbs" className="breadcrumbs mt-0" style={{backgroundColor:"#040404"}}>
       <div className="container ">
         <div className="d-flex justify-content-between align-items-center">
           <h2>{page}</h2>

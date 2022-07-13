@@ -2,21 +2,21 @@ import React, { useEffect }  from 'react'
 import Aos from 'aos'
 import "aos/dist/aos.css"
 import Link from 'next/link'
-function BlogArticle({image,title,author,date,article,alt}) {
+function BlogArticle({image,title,author,date,article,path}) {
 
   useEffect(() => {
     Aos.init({duration: 400})
    }, [])
 
     return (
-        <article className="entry" data-aos="fade-up">
-                <div className="entry-img">
-                  <img src={image} alt={alt} className="img-fluid w-100" />
+        <article className="entry col-lg-4 col-md-6 " data-aos="fade-up" >
+                <div className="entry-img p-2">
+                  <img src={image} alt={title} className="img-fluid w-100" />
                 </div>
                 <h2 className="entry-title">
-                  <a href="#">
+                  <span >
                     {title}
-                  </a>
+                  </span>
                 </h2>
                 <div className="entry-meta">
                   <ul>
@@ -37,9 +37,7 @@ function BlogArticle({image,title,author,date,article,alt}) {
                     {article}
                   </p>
                   <div className="read-more">
-                  <Link href="/blog-id">
-                    <a >Read More</a>
-                    </Link>
+                    <a href={path} target="_blank" rel="noopener noreferrer">Read More</a>
                   </div>
                 </div>
               </article>
