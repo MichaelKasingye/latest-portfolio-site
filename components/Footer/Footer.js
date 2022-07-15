@@ -10,6 +10,9 @@ function Footer() {
       fuga maxime saepe commodi placeat.
     </p> */}
     <div className="social-links">
+    <a href="https://github.com/michaelkasingye" className="twitter" target="_blank" rel="noopener noreferrer">
+        <i className="bi bi-github" />
+      </a>
       <a href="https://twitter.com/michaelkasingye" className="twitter" target="_blank" rel="noopener noreferrer">
         <i className="bi bi-twitter" />
       </a>

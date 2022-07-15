@@ -2,6 +2,11 @@ import React from "react";
 
 export const socialMediaIcons = [
   {
+    icon: "bi bi-github",
+    link: "https://github.com/michaelkasingye",
+    css: "twitter",
+  },
+  {
     icon: "bi bi-twitter",
     link: "https://twitter.com/michaelkasingye",
     css: "twitter",
