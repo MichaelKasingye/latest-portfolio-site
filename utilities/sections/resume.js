@@ -158,7 +158,7 @@ export const clients = [
 export const resumeExperience = [
   {
     jobTitle: "SOFTWARE DEVELOPER - CONTRACT",
-    period: "Feb 2021 - Present",
+    period: "Feb 2021 - June 2022",
     companyAndLocation: "Outbox EDU Hub Uganda, Kampala, Uganda",
     jobDescriptions: [
       "I teach students software development in JavaScript front and backend development so that they can be able to create and attract opportunities in the technology industry.",
