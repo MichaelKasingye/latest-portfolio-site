@@ -15,7 +15,7 @@ function Motto() {
 
       <div className="section-title">
         <h2>Portfolio</h2>
-        <p>My Works</p>
+        <p>My Personal Works</p>
       </div>
 
       <div className="row portfolio-container" data-aos="fade-left">

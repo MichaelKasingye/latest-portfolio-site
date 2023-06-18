@@ -5,6 +5,50 @@ import React from "react";
 }
 export const resumeIcons = [
   {
+    name: "TypeScript",
+    color: "#5578ff",
+    icon: (
+      <img
+        className="mx-3"
+        src="assets/img/logo/typescript-short.png"
+        width={30}
+      />
+    ),
+  },
+  {
+    name: "TypeORM",
+    color: "#5578ff",
+    icon: (
+      <img
+        className="mx-3"
+        src="assets/img/logo/typeorm.png"
+        width={30}
+      />
+    ),
+  },
+  {
+    name: "PostgresSQL",
+    color: "#5578ff",
+    icon: (
+      <img
+        className="mx-3"
+        src="assets/img/logo/psql-logo.png"
+        width={30}
+      />
+    ),
+  },
+  {
+    name: "MongoDB",
+    color: "#5578ff",
+    icon: (
+      <img
+        className="mx-3"
+        src="assets/img/logo/mongodb.png"
+        width={30}
+      />
+    ),
+  },
+  {
     name: "JavaScript",
     color: "#5578ff",
     icon: (
@@ -27,7 +71,17 @@ export const resumeIcons = [
       />
     ),
   },
-
+  {
+    name: "React Native",
+    color: "#5578ff",
+    icon: (
+      <img
+        className="mx-3"
+        src="assets/img/logo/reactNativeLogo.png"
+        width={30}
+      />
+    ),
+  },
   {
     name: "React JavaScript",
     color: "#5578ff",
@@ -73,6 +127,22 @@ export const resumeIcons = [
     ),
   },
   {
+    name: "Git Hub Actions",
+    color: "#11dbcf",
+    icon: (
+      <img
+        className="mx-3"
+        src="https://avatars.githubusercontent.com/u/44036562?s=200&v=4"
+        width={30}
+      />
+    ),
+  },
+  {
+    name: "Git",
+    color: "#11dbcf",
+    icon: <i className="bi bi-git" style={{ color: "#11dbcf" }} />,
+  },
+  {
     name: "Java",
     color: "#5578ff",
     icon: (
@@ -83,11 +153,7 @@ export const resumeIcons = [
       />
     ),
   },
-  {
-    name: "Git",
-    color: "#11dbcf",
-    icon: <i className="bi bi-git" style={{ color: "#11dbcf" }} />,
-  },
+ 
 ];
 export const resumeToolsIcons = [
   {
@@ -113,6 +179,16 @@ export const resumeToolsIcons = [
 ];
 
 export const clients = [
+  {
+  alt: "Sprint UG",
+  imageDisplay: (
+    <img
+      className="mx-3"
+      src="assets/img/clients/sprint_logo.PNG"
+      width={30}
+    />
+  ),
+},
   {
     alt: "outbox",
     imageDisplay: (
@@ -157,13 +233,24 @@ export const clients = [
 
 export const resumeExperience = [
   {
+    jobTitle: "SOFTWARE DEVELOPER - PERMANENT",
+    period: "Oct 2022 - Present",
+    companyAndLocation: "Sprint UG Uganda, Kampala, Uganda",
+    jobDescriptions: [
+      "Collaborate with clients and use Figma to create UI/UX designs for software development",
+      "Write frontend software using React Native for mobile applications and React Next.js for web applications, with a preference for TypeScript as the programming language.",
+      "Develop backend software using Mongoose or Postgres SQL(TypeORM) to efficiently process, store, and retrieve data.",
+      "Deploy software to production environments using CI/CD(Github Actions) methodologies.",
+    ],
+  },
+  {
     jobTitle: "SOFTWARE DEVELOPER - CONTRACT",
     period: "Feb 2021 - June 2022",
     companyAndLocation: "Outbox EDU Hub Uganda, Kampala, Uganda",
     jobDescriptions: [
-      "I teach students software development in JavaScript front and backend development so that they can be able to create and attract opportunities in the technology industry.",
-      "I Contribute to curriculum and content development, based on learnings and data, utilizing student feedback and continuously iterating to improve teaching and assessment methods;",
-      "I also build Frontend and Backend software using React JavaScript, Express JavaScript and Mongo Database to create functional user-friendly web applications.",
+      "Taught students software development in JavaScript front and backend development so that they can be able to create and attract opportunities in the technology industry.",
+      "Contributed to curriculum and content development, based on learnings and data, utilizing student feedback and continuously iterating to improve teaching and assessment methods.",
+      "Built Frontend and Backend software using React JavaScript, Express JavaScript and Mongo Database to create functional user-friendly web applications.",
     ],
   },
   {
