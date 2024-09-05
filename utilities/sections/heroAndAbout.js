@@ -29,11 +29,12 @@ export const socialMediaIcons = [
 ];
 
 export const about = {
-  title: "Software Developer",
+  title: "Versatile Full Stack Developer",
   description1:
-    "I am a Ugandan software developer. I love to build and work with teams to establish virtual platforms and systems that provide user satisfaction.",
+    "I am a passionate software developer with a commitment to building scalable, user-centric platforms that drive engagement and efficiency. My expertise spans both frontend and backend development, working with modern technologies to deliver impactful digital solutions.",
   description2:
-    "I have a love for software. I find joy in creating tools that make life easier for people to use. I take pride in what I am involved or create and I strive to be better than what I currently am.",
+    "With a strong dedication to continuous learning and improvement, I enjoy creating systems that simplify users' lives. I take pride in my work and constantly seek to elevate my skills and deliver better solutions with each project.",
   experience: "Full Stack Developer",
-  period: "More than 3 years",
+  period: "3 years / fullstack, DevOps.",
 };
+

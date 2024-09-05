@@ -136,6 +136,54 @@ export const resumeIcons = [
         width={30}
       />
     ),
+  }
+  ,
+  {
+    name: "Kubernetes",
+    color: "#11dbcf",
+    // icon: (
+      // <img
+      //   className="mx-3"
+      //   src="https://avatars.githubusercontent.com/u/44036562?s=200&v=4"
+      //   width={30}
+      // />
+    // ),
+  },
+  
+  {
+    name: "Docker",
+    color: "#11dbcf",
+    // icon: (
+      // <img
+      //   className="mx-3"
+      //   src="https://avatars.githubusercontent.com/u/44036562?s=200&v=4"
+      //   width={30}
+      // />
+    // ),
+  }
+  ,
+  {
+    name: "DevOps",
+    color: "#11dbcf",
+    // icon: (
+      // <img
+      //   className="mx-3"
+      //   src="https://avatars.githubusercontent.com/u/44036562?s=200&v=4"
+      //   width={30}
+      // />
+    // ),
+  }
+  ,
+  {
+    name: "Linux",
+    color: "#11dbcf",
+    // icon: (
+      // <img
+      //   className="mx-3"
+      //   src="https://avatars.githubusercontent.com/u/44036562?s=200&v=4"
+      //   width={30}
+      // />
+    // ),
   },
   {
     name: "Git",
@@ -234,23 +282,32 @@ export const clients = [
 export const resumeExperience = [
   {
     jobTitle: "SOFTWARE DEVELOPER - PERMANENT",
-    period: "Oct 2022 - Present",
-    companyAndLocation: "Sprint UG Uganda, Kampala, Uganda",
+    period: "Jan 2024 - Present",
+    companyAndLocation: "Nova Generation, Kampala, Uganda",
     jobDescriptions: [
-      "Collaborate with clients and use Figma to create UI/UX designs for software development",
-      "Write frontend software using React Native for mobile applications and React Next.js for web applications, with a preference for TypeScript as the programming language.",
-      "Develop backend software using Mongoose or Postgres SQL(TypeORM) to efficiently process, store, and retrieve data.",
-      "Deploy software to production environments using CI/CD(Github Actions) methodologies.",
+      "Working on the NovaSuite hotel management system web application ,buiding the backend to supply over 100 APIs to the frontend, significantly improving user engagement and experience.",
+      "Working on NovaLegal, a legal management system, handling both frontend and backend for a file tracking feature to monitor legal cases at different stages in the court process.",
+      "Successfully deployed both NovaSuite and NovaLegal to production environments, scaling them to handle 50,000 users for the start.",
+      "Set up and managed testing environments (dev and staging) as well as production environments using CI/CD methodologies.",
     ],
   },
   {
     jobTitle: "SOFTWARE DEVELOPER - CONTRACT",
-    period: "Feb 2021 - June 2022",
+    period: "Oct 2022 - Dec 2023",
+    companyAndLocation: "Sprint Internet (U) Ltd, Kampala, Uganda",
+    jobDescriptions: [
+      "Developed frontend software using React Native for mobile applications and Next.js for web applications, with a preference for TypeScript as the programming language.",
+      "Implemented efficient data processing and storage using Mongoose and PostgreSQL (TypeORM).",
+     ],
+  },
+  {
+    jobTitle: "SOFTWARE DEVELOPER - VOLUNTEER",
+    period: "Feb 2021 - Jul 2022",
     companyAndLocation: "Outbox EDU Hub Uganda, Kampala, Uganda",
     jobDescriptions: [
-      "Taught students software development in JavaScript front and backend development so that they can be able to create and attract opportunities in the technology industry.",
-      "Contributed to curriculum and content development, based on learnings and data, utilizing student feedback and continuously iterating to improve teaching and assessment methods.",
-      "Built Frontend and Backend software using React JavaScript, Express JavaScript and Mongo Database to create functional user-friendly web applications.",
+      "Taught students JavaScript, React.js, and Express.js, mentoring 20 aspiring developers.",
+      "Contributed to curriculum and content development, iterating based on feedback to improve teaching and assessment methods.",
+      "Built frontend and backend software using React, Express.js, and MongoDB to create functional user-friendly web applications.",
     ],
   },
   {
@@ -258,30 +315,29 @@ export const resumeExperience = [
     period: "Oct 2020 - Feb 2021",
     companyAndLocation: "Outbox EDU Hub Uganda, Kampala, Uganda",
     jobDescriptions: [
-      "Developed front-end and Backend web applications using React, Express JavaScript and Mongo DataBase.",
-      "Developed a React-redux JavaScript application that displays the monthly loan repayment amount for a given loan a user has input - Loan Repayment Application.",
-      "Developed a React-context API JavaScript front-end application that displays shopping items a user can select from, shopping categories and search for items using the search bar - Commerce site.",
+      "Developed front-end and back-end web applications using React, Express.js, and MongoDB.",
+      "Created a Loan Repayment Application that calculates monthly repayment amounts based on user input.",
+      "Developed a Commerce site using React Context API to display and search shopping items across different categories.",
     ],
   },
   {
     jobTitle: "SOFTWARE DEVELOPER - SELF TEACHING",
-    period: "April 2020 - Oct 2020",
-    companyAndLocation: "Uganda, Kampala, Uganda",
+    period: "Apr 2020 - Oct 2020",
+    companyAndLocation: "Kampala, Uganda",
     jobDescriptions: [
-      "learnt front-end web applications using HTML CSS.",
-      "learnt Languages like Java, JavaScript.",
-      "learnt Git and Github to manage development versions.",
+      "Learned front-end web development using HTML, CSS, and JavaScript.",
+      "Studied languages like Java and JavaScript.",
+      "Used Git and GitHub to manage version control during development.",
     ],
   },
   {
     jobTitle: "SALES OFFICER - BANKER",
-    period: "Nov 2016- April 2020",
+    period: "Nov 2016 - Apr 2020",
     companyAndLocation: "Housing Finance Bank Uganda, Kampala, Uganda",
     jobDescriptions: [
-      "Achieved a portfolio of worth One Million US dollars of  both assest and liabilities combined",
-      "Faced potential customers and onboard them to the  bank.",
-      "Hit the company expected set sales targets.",
-      "Provide customer service and provide business solutions to customer business challenges.",
+      "Managed a portfolio worth One Million US dollars in assets and liabilities combined.",
+      "Onboarded new customers, offering banking solutions tailored to their business challenges.",
+      "Achieved company-set sales targets and provided excellent customer service.",
     ],
   },
 ];
