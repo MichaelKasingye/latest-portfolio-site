@@ -13,9 +13,9 @@ function Footer() {
     <a href="https://github.com/michaelkasingye" className="twitter" target="_blank" rel="noopener noreferrer">
         <i className="bi bi-github" />
       </a>
-      <a href="https://twitter.com/michaelkasingye" className="twitter" target="_blank" rel="noopener noreferrer">
+      {/* <a href="https://twitter.com/michaelkasingye" className="twitter" target="_blank" rel="noopener noreferrer">
         <i className="bi bi-twitter" />
-      </a>
+      </a> */}
       <a href="https://michaelkasingye.medium.com/" className="Medium" target="_blank" rel="noopener noreferrer">
         <i className="bi bi-medium" />
       </a>

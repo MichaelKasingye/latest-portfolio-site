@@ -6,11 +6,11 @@ export const socialMediaIcons = [
     link: "https://github.com/michaelkasingye",
     css: "twitter",
   },
-  {
-    icon: "bi bi-twitter",
-    link: "https://twitter.com/michaelkasingye",
-    css: "twitter",
-  },
+  // {
+  //   icon: "bi bi-twitter",
+  //   link: "https://twitter.com/michaelkasingye",
+  //   css: "twitter",
+  // },
   {
     icon: "bi bi-medium",
     link: "https://michaelkasingye.medium.com/",
