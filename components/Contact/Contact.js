@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 // import React, { useEffect, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { useAlert } from "react-alert";
+import Link from "next/link";
 
 function Blogs() {
   const alert = useAlert();
@@ -75,10 +76,9 @@ function Blogs() {
           className="php-email-form mt-4"
           data-aos="fade-up"
           name="contact"
-          // method="POST"
           data-netlify="true"
         >
-          <div className="row">
+          {/* <div className="row">
             <div className="col-md-6 form-group">
               <input
                 type="text"
@@ -140,7 +140,6 @@ function Blogs() {
             </div>
           </div>
           <div className="text-center">
-            {/* <button type="submit">Send Message</button> */}
             {!inputs.email || !inputs.subject || !inputs.message ? (
               " "
             ) : (
@@ -148,8 +147,16 @@ function Blogs() {
                 {!loading ? "Send Message" : "Sending..."}
               </button>
             )}
-          </div>
+          </div> */}
+        <button type="submit">
+        <Link href="mailto:michaelkasingye@gmail.com">
+        Contact Me Here
+        </Link>
+              </button>
         </form>
+
+
+
       </div>
     </section>
   );
